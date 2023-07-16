@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AAB72942A63BA12004D6011 /* graff3dApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB72932A63BA12004D6011 /* graff3dApp.swift */; };
+		6AAB72962A63BA12004D6011 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB72952A63BA12004D6011 /* ContentView.swift */; };
+		6AAB72982A63BA13004D6011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB72972A63BA13004D6011 /* Assets.xcassets */; };
+		6AAB729C2A63BA13004D6011 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB729B2A63BA13004D6011 /* Preview Assets.xcassets */; };
+		6AAB72A62A63BA14004D6011 /* graff3dTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB72A52A63BA14004D6011 /* graff3dTests.swift */; };
+		6AAB72B02A63BA14004D6011 /* graff3dUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB72AF2A63BA14004D6011 /* graff3dUITests.swift */; };
+		6AAB72B22A63BA14004D6011 /* graff3dUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB72B12A63BA14004D6011 /* graff3dUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AAB72A22A63BA14004D6011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AAB72882A63BA12004D6011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AAB728F2A63BA12004D6011;
+			remoteInfo = graff3d;
+		};
+		6AAB72AC2A63BA14004D6011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AAB72882A63BA12004D6011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AAB728F2A63BA12004D6011;
+			remoteInfo = graff3d;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AAB72902A63BA12004D6011 /* graff3d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = graff3d.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAB72932A63BA12004D6011 /* graff3dApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graff3dApp.swift; sourceTree = "<group>"; };
+		6AAB72952A63BA12004D6011 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6AAB72972A63BA13004D6011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AAB72992A63BA13004D6011 /* graff3d.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = graff3d.entitlements; sourceTree = "<group>"; };
+		6AAB729B2A63BA13004D6011 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AAB72A12A63BA14004D6011 /* graff3dTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = graff3dTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAB72A52A63BA14004D6011 /* graff3dTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graff3dTests.swift; sourceTree = "<group>"; };
+		6AAB72AB2A63BA14004D6011 /* graff3dUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = graff3dUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAB72AF2A63BA14004D6011 /* graff3dUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graff3dUITests.swift; sourceTree = "<group>"; };
+		6AAB72B12A63BA14004D6011 /* graff3dUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graff3dUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AAB728D2A63BA12004D6011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAB729E2A63BA14004D6011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAB72A82A63BA14004D6011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AAB72872A63BA12004D6011 = {
+			isa = PBXGroup;
+			children = (
+				6AAB72922A63BA12004D6011 /* graff3d */,
+				6AAB72A42A63BA14004D6011 /* graff3dTests */,
+				6AAB72AE2A63BA14004D6011 /* graff3dUITests */,
+				6AAB72912A63BA12004D6011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AAB72912A63BA12004D6011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB72902A63BA12004D6011 /* graff3d.app */,
+				6AAB72A12A63BA14004D6011 /* graff3dTests.xctest */,
+				6AAB72AB2A63BA14004D6011 /* graff3dUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AAB72922A63BA12004D6011 /* graff3d */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB72932A63BA12004D6011 /* graff3dApp.swift */,
+				6AAB72952A63BA12004D6011 /* ContentView.swift */,
+				6AAB72972A63BA13004D6011 /* Assets.xcassets */,
+				6AAB72992A63BA13004D6011 /* graff3d.entitlements */,
+				6AAB729A2A63BA13004D6011 /* Preview Content */,
+			);
+			path = graff3d;
+			sourceTree = "<group>";
+		};
+		6AAB729A2A63BA13004D6011 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB729B2A63BA13004D6011 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AAB72A42A63BA14004D6011 /* graff3dTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB72A52A63BA14004D6011 /* graff3dTests.swift */,
+			);
+			path = graff3dTests;
+			sourceTree = "<group>";
+		};
+		6AAB72AE2A63BA14004D6011 /* graff3dUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB72AF2A63BA14004D6011 /* graff3dUITests.swift */,
+				6AAB72B12A63BA14004D6011 /* graff3dUITestsLaunchTests.swift */,
+			);
+			path = graff3dUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AAB728F2A63BA12004D6011 /* graff3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAB72B52A63BA14004D6011 /* Build configuration list for PBXNativeTarget "graff3d" */;
+			buildPhases = (
+				6AAB728C2A63BA12004D6011 /* Sources */,
+				6AAB728D2A63BA12004D6011 /* Frameworks */,
+				6AAB728E2A63BA12004D6011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = graff3d;
+			productName = graff3d;
+			productReference = 6AAB72902A63BA12004D6011 /* graff3d.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AAB72A02A63BA14004D6011 /* graff3dTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAB72B82A63BA14004D6011 /* Build configuration list for PBXNativeTarget "graff3dTests" */;
+			buildPhases = (
+				6AAB729D2A63BA14004D6011 /* Sources */,
+				6AAB729E2A63BA14004D6011 /* Frameworks */,
+				6AAB729F2A63BA14004D6011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AAB72A32A63BA14004D6011 /* PBXTargetDependency */,
+			);
+			name = graff3dTests;
+			productName = graff3dTests;
+			productReference = 6AAB72A12A63BA14004D6011 /* graff3dTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AAB72AA2A63BA14004D6011 /* graff3dUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAB72BB2A63BA14004D6011 /* Build configuration list for PBXNativeTarget "graff3dUITests" */;
+			buildPhases = (
+				6AAB72A72A63BA14004D6011 /* Sources */,
+				6AAB72A82A63BA14004D6011 /* Frameworks */,
+				6AAB72A92A63BA14004D6011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AAB72AD2A63BA14004D6011 /* PBXTargetDependency */,
+			);
+			name = graff3dUITests;
+			productName = graff3dUITests;
+			productReference = 6AAB72AB2A63BA14004D6011 /* graff3dUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AAB72882A63BA12004D6011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6AAB728F2A63BA12004D6011 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					6AAB72A02A63BA14004D6011 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6AAB728F2A63BA12004D6011;
+					};
+					6AAB72AA2A63BA14004D6011 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6AAB728F2A63BA12004D6011;
+					};
+				};
+			};
+			buildConfigurationList = 6AAB728B2A63BA12004D6011 /* Build configuration list for PBXProject "graff3d" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AAB72872A63BA12004D6011;
+			productRefGroup = 6AAB72912A63BA12004D6011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AAB728F2A63BA12004D6011 /* graff3d */,
+				6AAB72A02A63BA14004D6011 /* graff3dTests */,
+				6AAB72AA2A63BA14004D6011 /* graff3dUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AAB728E2A63BA12004D6011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAB729C2A63BA13004D6011 /* Preview Assets.xcassets in Resources */,
+				6AAB72982A63BA13004D6011 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAB729F2A63BA14004D6011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAB72A92A63BA14004D6011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AAB728C2A63BA12004D6011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAB72962A63BA12004D6011 /* ContentView.swift in Sources */,
+				6AAB72942A63BA12004D6011 /* graff3dApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAB729D2A63BA14004D6011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAB72A62A63BA14004D6011 /* graff3dTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAB72A72A63BA14004D6011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAB72B22A63BA14004D6011 /* graff3dUITestsLaunchTests.swift in Sources */,
+				6AAB72B02A63BA14004D6011 /* graff3dUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AAB72A32A63BA14004D6011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AAB728F2A63BA12004D6011 /* graff3d */;
+			targetProxy = 6AAB72A22A63BA14004D6011 /* PBXContainerItemProxy */;
+		};
+		6AAB72AD2A63BA14004D6011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AAB728F2A63BA12004D6011 /* graff3d */;
+			targetProxy = 6AAB72AC2A63BA14004D6011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6AAB72B32A63BA14004D6011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AAB72B42A63BA14004D6011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6AAB72B62A63BA14004D6011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = graff3d/graff3d.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"graff3d/Preview Content\"";
+				DEVELOPMENT_TEAM = YQ9BWFR984;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = friedmanzoe.graff3d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AAB72B72A63BA14004D6011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = graff3d/graff3d.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"graff3d/Preview Content\"";
+				DEVELOPMENT_TEAM = YQ9BWFR984;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = friedmanzoe.graff3d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AAB72B92A63BA14004D6011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ9BWFR984;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = friedmanzoe.graff3dTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/graff3d.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/graff3d";
+			};
+			name = Debug;
+		};
+		6AAB72BA2A63BA14004D6011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ9BWFR984;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = friedmanzoe.graff3dTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/graff3d.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/graff3d";
+			};
+			name = Release;
+		};
+		6AAB72BC2A63BA14004D6011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ9BWFR984;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = friedmanzoe.graff3dUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = graff3d;
+			};
+			name = Debug;
+		};
+		6AAB72BD2A63BA14004D6011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQ9BWFR984;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = friedmanzoe.graff3dUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = graff3d;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AAB728B2A63BA12004D6011 /* Build configuration list for PBXProject "graff3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAB72B32A63BA14004D6011 /* Debug */,
+				6AAB72B42A63BA14004D6011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAB72B52A63BA14004D6011 /* Build configuration list for PBXNativeTarget "graff3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAB72B62A63BA14004D6011 /* Debug */,
+				6AAB72B72A63BA14004D6011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAB72B82A63BA14004D6011 /* Build configuration list for PBXNativeTarget "graff3dTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAB72B92A63BA14004D6011 /* Debug */,
+				6AAB72BA2A63BA14004D6011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAB72BB2A63BA14004D6011 /* Build configuration list for PBXNativeTarget "graff3dUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAB72BC2A63BA14004D6011 /* Debug */,
+				6AAB72BD2A63BA14004D6011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AAB72882A63BA12004D6011 /* Project object */;
+}
